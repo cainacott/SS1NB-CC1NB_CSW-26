@@ -1,0 +1,23 @@
+h1 {
+    color: darkgray;
+    background-color: white;
+    width: 300px;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+p {
+    background-color: white;
+    width: 100px;
+    border-radius: 7px;
+    padding: 5px; 
+}
+
+body{
+    background: linear-gradient(to right, gray, lightgray);
+}
+
+.section{
+    display: flex;
+}
