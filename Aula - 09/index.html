@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<h1>Formulário</h1>
+
+<body>
+    <table>
+    <form action="" method="get">
+        <div class="linha">
+            <label for="nome_usuario">Nome do Usuário</label>
+            <input type="text" name="nomeUsuario" id="nome_usuario" size="40" maxlength="30" value=""
+                placeholder="Digite o nome de usuário" required>
+        </div>
+
+        <div class="linha">
+            <label for="email_pessoal">E-mail pessoal:</label>
+            <input type="email" name="email1" id="email_pessoal" size="40" maxlength="40" value="" placeholder=""
+                required>
+        </div>
+
+        <div class="linha">
+            <label for="email_patter">E-mail (patter):</label>
+            <input type="email" name="email2" id="email_patter" size="40" maxlength="40" value=""
+                placeholder="Digite seu email com @">
+        </div>
+
+        <div class="linha">
+            <label for="senha_de_acesso">Senha:</label>
+            <input type="password" name="senhaUsuario" id="senha_de_acesso" size="40" maxlength="15" value="" placeholder=""
+                required>
+        </div>
+
+        <div class="linha">
+            <label for="idade_usuario">Idade:</label>
+            <input type="text" name="idadeUsuario" id="idade_usuario" size="40" maxlength="3" required>
+        </div>
+
+        <div class="linha">
+            <label for="comentário">Deixe aqui um comentário</label><br>
+            <textarea name="comentárioUsuario" id="comentário" cols="50" rows="10"></textarea>
+        </div>
+
+        <div class="linha">
+            <label for="materia">Matéria de interesse:</label>
+            <br>
+            <input type="checkbox" id="materia" name="area de interesse" value="backend"> Backend
+            <br>
+            <input type="checkbox" id="materia" name="area de interesse" value="frontend"> Frontend
+            <br>
+            <input type="checkbox" id="materia" name="area de interesse" value="fullstack"> Fullstack
+        </div>
+
+        <div class="linha">
+            <label for="tipo_viagem">Tipo de Viagem</label>
+            <br>
+            <input type="radio" id="tipo_viagem" name="opcao" value="negocios">Negócios
+            <br>
+            <input type="radio" id="tipo_viagem" name="opcao" value="lazer">Lazer
+            <br>
+            <input type="radio" id="tipo_viagem" name="opcao" value="turismo">Turismo
+            <br>
+            <input type="radio" id="tipo_viagem" name="opcao" value="academico">Acadêmico
+        </div>
+
+        <div class="linha">
+            <label for="esporte_favorito">Esporte Favortio:</label>
+            <select name="preferencia" id="esporte_favorito" size="1">
+                <option value="">Selecione</option>
+                <option value="futebol">Futebol</option>
+                <option value="basquete">Basquete</option>
+                <option value="volei">Vôlei</option>
+                <option value="tenis">Tênis</option>
+            </select>
+        </div>
+
+        <div class="linha">
+            <label for="tipo_investimento">Investimentos</label>
+            <select name="investimento_escolhido" id="tipo_investimento" size="1">
+                <option value="">Selecione</option>
+                <option value="cdb">CDB</option>
+                <option value="tesouro direto">Tesouro Direto</option>
+                <option value="fundos imobiliarios">Fundos Imobiliários</option>
+                <option value="cdi">CDI</option>
+                <option value="debentures">DEBÊNTURES</option>
+                <option value="criptomoedas">Criptomoedas</option>
+                <option value="acoes">Ações</option>
+            </select>
+        </div>
+
+        <div class="linha">
+            <label for="cor">Escolha uma cor:</label>
+            <input type="color" name="cor escolhida" id="cor">
+        </div>
+
+        <div class="linha">
+            <label for="arquivo">Selecione um arquivo:</label>
+            <input type="file" name="arquivoUsuario" id="arquivo">
+        </div>
+
+        <div class="linha">
+            <label for="data_nascimento">Data de Nascimento</label>
+            <input type="datetime-local" name="data_nascimentoUsuario" id="data_nascimento">
+        </div>
+
+        <div class="linha">
+            <button>
+                <input type="submit" value="Enviar E-mail">
+            </button>
+
+            <button>
+                <input type="reset" value="Limpar">
+            </button>
+        </div>
+    </form>
+    </table>
+</body>
+
+</html>
