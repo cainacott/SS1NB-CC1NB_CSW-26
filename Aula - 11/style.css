@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #11A0E7, #06b1be);
+}
+
+h1 {
+    color: rgb(23, 98, 168);
+}
+
+h2 {
+    color: rgb(31, 147, 255);
+}
+
+.caixa-texto {
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.4);
+}
